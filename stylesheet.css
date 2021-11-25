@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+
+.nav_bar{
+    display: flex;
+    background-color: rgb(54, 54, 54);
+    
+}
+img {
+    border-radius: 50%;
+    margin-right: 5px;
+ }
+
+a {
+    color: hotpink;
+    margin-right: 100px;
+
+    
+  }
+
+  
