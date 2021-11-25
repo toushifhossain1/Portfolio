@@ -122,3 +122,12 @@ a {
     margin-top: 100px;
     margin-right: 20px;
 }
+
+.footer{
+  
+    margin-top:100px;
+    background-color:  rgb(158, 245, 250);
+    opacity: 50%;
+    text-align: center;
+  
+}
