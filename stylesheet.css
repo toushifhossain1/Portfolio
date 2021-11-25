@@ -1,10 +1,11 @@
 body{
     background-color: black;
+    display: grid;
 }
 
 
 .nav_bar{
-   display: flex;
+    display: flex;
     background-color: rgb(54, 54, 54);
     
 }
@@ -21,7 +22,9 @@ a {
   }
   
   /* Image Slider*/
-
+.middle{
+    margin-top: 100px;
+}
   .carousel-container {
     width: 400px;
     height: 400px;
@@ -30,6 +33,14 @@ a {
     
   }
   
+  .navigation .next {
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    top: 40%;
+    right: 10px;
+    font-weight: 700;
+  }
   .navigation .prev {
     position: absolute;
     z-index: 10;
@@ -37,13 +48,6 @@ a {
     top: 40%;
     left: 10px;
     font-weight: 700;
-  }
-  .navigation .next {
-    right: 10px;
-    position: absolute;
-    font-size: 25px;
-    z-index: 10;
-    top: 40%;
   }
   .navigation .nav-btn {
     background: rgba(255, 255, 255, 0.55);
@@ -92,4 +96,9 @@ a {
   
   .main {
     display: block;
+  }
+
+  .bottom{
+      margin-top: 100px;
+      margin-right: 50px;
   }
