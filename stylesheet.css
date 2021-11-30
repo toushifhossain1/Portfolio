@@ -149,3 +149,8 @@ a {
     text-align: center;
   
 }
+
+/* hoover*/
+.item:hover {
+  transform: scale(1.5); 
+}
