@@ -28,7 +28,7 @@ strong {
 
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .Photo_and_intro {
     flex-direction: column;
     /* Stack the divs vertically */
@@ -208,6 +208,18 @@ a {
   text-align: center;
 
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgb(158, 245, 250);
+    opacity: 50%;
+    text-align: center;
+  }
+}
+
+
 
 /* hoover*/
 .item:hover {
