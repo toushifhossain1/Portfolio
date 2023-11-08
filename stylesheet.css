@@ -15,6 +15,7 @@ strong {
 
 .photo {
   margin-top: 100px;
+  margin-left: 2%;
 }
 
 .about_me {
@@ -26,6 +27,31 @@ strong {
   font-size: 25px;
 
 }
+
+@media (max-width: 768px) {
+  .Photo_and_intro {
+    flex-direction: column;
+    /* Stack the divs vertically */
+    align-items: center;
+    /* Center align both divs */
+  }
+
+  .photo {
+    margin-top: 20px;
+    /* Adjust top margin for spacing */
+  }
+
+  .about_me {
+    margin-top: 20px;
+    /* Adjust top margin for spacing */
+    margin-left: 2%;
+    /* Add some left margin for readability */
+  }
+}
+
+
+
+
 
 .fields_projects {
   color: white;
@@ -175,7 +201,7 @@ a {
 }
 
 .footer {
-
+  width: 100%;
   margin-top: 100px;
   background-color: rgb(158, 245, 250);
   opacity: 50%;
