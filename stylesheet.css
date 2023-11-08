@@ -225,3 +225,64 @@ a {
 .item:hover {
   transform: scale(1.5);
 }
+
+
+
+.line-with-circles {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.left {
+  margin-right: 10px;
+
+}
+
+.right {
+  margin-left: 10px;
+
+}
+
+.line {
+  flex-grow: 1;
+  height: 2px;
+
+  background-color: rgb(255, 255, 255);
+
+}
+
+
+.transparent-box {
+  margin: 3%;
+  background-color: #272724;
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Optional: Add additional CSS to make the text responsive */
+.transparent-box p {
+  font-size: 1.2em;
+}
+
+td {
+  padding: 2px;
+  border: 1px solid #E88741;
+  font-size: 24px;
+  text-align: center;
+}
+
+table {
+  margin-bottom: 1%;
+}
+
+#ttc {}
